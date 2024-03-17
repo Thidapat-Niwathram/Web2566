@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>work2</title>
+    <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+</head>
+
+<body>
+  <a-scene>
+    <!-- text -->
+      <a-text value="Work 2"
+      position="0 5 0"
+      animation="property: position; to: 0.3 2.5 -3.2; dur: 5000;"
+      color="#000000" ></a-text>
+
+      <a-text value="643020478-5"
+      position="0 5 0"
+      animation="property: position; to: 0.3 2 -3.2; dur: 5000;"
+      color="#000000" ></a-text>
+
+      <a-text value="Thidapat Niwathram"
+      position="0 5 0"
+      animation="property: position; to: 0.3 1.5 -3.2; dur: 5000;"
+      color="#000000" ></a-text>
+
+      <!-- background -->
+      <a-sky src="bg.jpg"></a-sky>
+
+      <!-- image -->
+      <a-box position="0 0 0"
+       width="1" height="1"
+       animation="property: position; to: 0 1 -5; dur: 2000; easing: linear"
+       animation__2="property: rotation;; to: 0 360 0; dur: 5000; loop: true;"
+       src="profile.jpg"
+       ></a-box>
+
+  </a-scene>
+</body>
+</html>
